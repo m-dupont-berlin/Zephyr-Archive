@@ -1,0 +1,38 @@
+{
+  "system_info": {
+    "node_name": "berlin-lab-srv-01",
+    "environment": "development",
+    "os_version": "Ubuntu 22.04.1 LTS",
+    "uptime_check": "enabled"
+  },
+  "project_metadata": {
+    "project_id": "PRJ-ZEPHYR-2022",
+    "codename": "Zephyr",
+    "department": "Aerospace Dynamics",
+    "lead_dev": "m.dupont@univ-local.de"
+  },
+  "hardware_specs": {
+    "component_id": "ION-THRUSTER-V2",
+    "firmware_version": "4.12.0-alpha",
+    "serial": "SN-2022-ZEP-01",
+    "calibration_date": "2022-01-15T10:30:00Z"
+  },
+  "network_config": {
+    "internal_ip": "10.0.44.12",
+    "gateway": "10.0.44.1",
+    "dns": ["8.8.8.8", "1.1.1.1"],
+    "api_endpoint": "https://api.zephyr-internal.io/v1/telemetry"
+  },
+  "security_flags": {
+    "encryption_enabled": true,
+    "debug_mode": false,
+    "auth_method": "RSA-4096",
+    "log_level": "verbose"
+  },
+  "tags": [
+    "berlin",
+    "ion-propulsion",
+    "university-research",
+    "prototype"
+  ]
+}
